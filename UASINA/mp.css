@@ -1,0 +1,71 @@
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+
+  /* Style untuk navbar */
+  nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    background-color: #ddd;
+  }
+
+  /* Style untuk konten utama */
+  .container {
+    margin: 20px;
+  }
+  .slider img{
+    float: none;
+    width: 450px;
+    height: 250px;
+    padding: 5px;
+    }
+  /* Style untuk daftar produk */
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .product {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .product img {
+    width: 200px;
+    height: 130px;
+    margin-bottom: 10px;
+  }
+
+  /* Style untuk footer */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
